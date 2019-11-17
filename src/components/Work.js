@@ -11,11 +11,12 @@ const Work = () => {
 
              </div>
                <div className="work__secondtop">
-             <img src={visualStudio} style={{height:'400px', width:'400px', padding:'5rem 5rem' }} xalt="screen image of visual studio" ></img>
+             <img src={visualStudio} alt="visual studio screenshot" style={{height:'400px', width:'400px', padding:'5rem 5rem' }} xalt="screen image of visual studio" ></img>
              <div className="work__secondtop--text">
                   <h2>Visual Studio Code</h2>
-                    <p>I have used Visual Studio for being React/Node.js applications. Within visual studio I have
-                         implemented tools such as <strong>WebPack, Npm and Sass Compilers</strong>.
+                    <p>I have used Visual Studio for React/Node.js applications. Within visual studio I have
+                         implemented tools such as <strong>WebPack, Npm and Sass Compilers</strong>. I have created builds
+                         and pushed them to both <strong>GitHub and Heroku</strong>.
                     </p>
              
              
@@ -25,7 +26,7 @@ const Work = () => {
 
 
                <div className="work__thirdtop">
-             <img src={eclipse} style={{height:'400px', width:'400px', padding:'5rem 5rem' }} xalt="screen image of eclipse workspace" ></img>
+             <img src={eclipse} alt="Eclipse screenshot" style={{height:'400px', width:'400px', padding:'5rem 5rem' }} xalt="screen image of eclipse workspace" ></img>
              <div className="work__thirdtop--text">
                   <h2>Eclipse</h2>
                     <p>I have used Eclipse when programming within <strong>Java</strong>. I have integrated Spring IO Maven applications
@@ -38,7 +39,7 @@ const Work = () => {
         </div>
 
         <div className="work__forthtop">
-             <img src={msdos} style={{height:'400px', width:'400px', padding:'5rem 5rem' }} xalt="screen image of msdos" ></img>
+             <img src={msdos} alt="cmd screenshot" style={{height:'400px', width:'400px', padding:'5rem 5rem' }} xalt="screen image of msdos" ></img>
              <div className="work__forthtop--text">
                   <h2>Command Shell</h2>
                     <p>I use the Command Shell regularly when creating applications. I also have used Bash Terminals

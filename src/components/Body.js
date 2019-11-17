@@ -20,7 +20,7 @@ class Body extends Component {
                     </div>
                     <div className="body__blockTwo">
                         <div className="body__blockTwo--element"><a href="https://afternoon-taiga-12245.herokuapp.com/">
-                            <img src={messageapp} style={{ height: '60vh', width: '60vw', padding: '5rem 5rem' }} xalt="image of Mern" ></img></a>
+                            <img src={messageapp} alt="Mern App" style={{ height: '60vh', width: '60vw', padding: '5rem 5rem' }} xalt="image of Mern" ></img></a>
 
                         </div>
                         <div className="body__blockTwo--element">
@@ -30,7 +30,7 @@ class Body extends Component {
 
                     <div className="body__blockThree">
                     <div className="body__blockThree--elementOne">
-                        <img src={login} style={{ height: '60vh', width: '60%', padding: '5rem 5rem' }} xalt="image of Mern Site" ></img></div>
+                        <img src={login} alt="login screen" style={{ height: '60vh', width: '60%', padding: '5rem 5rem' }} xalt="image of Mern Site" ></img></div>
                       
                       <div className="body__blockThree--elementTwo">
                           <h4>Secure backEnd</h4>
@@ -42,7 +42,7 @@ class Body extends Component {
 
                     <div className="body__blockFour">
                         <div className="body__blockFour--elementOne">
-                         <img src={engagement} style={{height: '100%', width: '100%'}} xalt="image of Mern Site" ></img></div>
+                         <img src={engagement} alt="d3 charts" style={{height: '100%', width: '100%'}} xalt="image of Mern Site" ></img></div>
                          
                         <div className="body__blockFour--elementTwo">
                             <h4>D3.js Dynamic Charts</h4>

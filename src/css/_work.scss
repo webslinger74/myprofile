@@ -5,6 +5,12 @@
         width:100vw; 
 }
 
+@mixin innerLayout(){
+    align-items:center;
+    width:40%;
+    font-size:1.6rem;
+}
+
 
 .work {
     
@@ -26,9 +32,7 @@
 
        &--text {
            
-           align-items:center;
-           width:40%;
-           font-size:1.6rem;
+        @include innerLayout()
            }
        }
     &__thirdtop {
@@ -38,10 +42,8 @@
  
         &--text {
             
-            align-items:center;
-            width:40%;
-            font-size:1.6rem;
-            }
+        @include innerLayout();
+;            }
     }
     &__forthtop {
         @include layout();
@@ -50,9 +52,7 @@
  
         &--text {
             
-            align-items:center;
-            width:40%;
-            font-size:1.6rem;
-            }
+        @include innerLayout();
+                }
     }
 }

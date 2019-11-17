@@ -35,7 +35,7 @@ class Github extends Component {
             }
 
             // need to loop through DataArray and if key is in Filterarray keep in DataArray
-            console.log(DataArray, "the data array");
+         
             const FilterArray = ['name', 'login','location', 'created_at', 'updated_at', 'bio', 'public_repos', 'following', 'followers'];
            
             

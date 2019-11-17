@@ -170,6 +170,7 @@ class Enrol extends Component {
                                         width='100%'
                                         borderRadius='.5rem'
                                         border='solid 2px blue'
+                                        fontSize='2.5rem'
                                         color='white'
                                         marginLeft='.5rem'
                                         backgroundColor='blue'
