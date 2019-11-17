@@ -1,7 +1,7 @@
 import React from 'react';
 import msdos from '../images/msdos.JPG';
 import eclipse from '../images/eclipse.JPG';
-import visualStudio  from '../images/visualstudio.JPG';
+import visualStudio  from '../images/vscode.jpg';
 
 const Work = () => {
     return ( 

@@ -17,7 +17,7 @@ var firebaseConfig = {
   firebase.initializeApp(firebaseConfig);
 
 
-
+//configuration set up
   const firebaseDB = firebase.database();
   const firebaseContactDetails = firebaseDB.ref('contacts');
 
