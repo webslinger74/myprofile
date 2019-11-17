@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-// require('dotenv').config();
+import githubcont from '../images/githubcontributions.jpg';
+import capture from '../images/capture.jpg';
 import Button from './UI/Button';
 class Github extends Component {
 
@@ -82,12 +83,12 @@ class Github extends Component {
     <div className="github">
       <div className="github__left">
         <a href="https://github.com/webslinger74">
-          <img src="./images/Capture.jpg" style={{ height: '400px', width: '200px', padding: '5rem 5rem' }} alt="" ></img></a>
+          <img src={capture} style={{ height: '400px', width: '200px', padding: '5rem 5rem' }} alt="" ></img></a>
       </div>
 
       <div className="github__middle">
         <a href="https://github.com/webslinger74">
-          <img src="./images/githubcontributions.JPG" style={{ height: '200px', width: '500px', padding: '5rem 5rem' }} alt="" ></img></a>
+          <img src={githubcont} style={{ height: '200px', width: '500px', padding: '5rem 5rem' }} alt="" ></img></a>
 
       </div>
       <div className="github__right">

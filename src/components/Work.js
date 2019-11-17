@@ -1,6 +1,7 @@
 import React from 'react';
 import msdos from '../images/msdos.JPG';
 import eclipse from '../images/eclipse.JPG';
+import visualStudio  from '../images/visual.JPG';
 
 const Work = () => {
     return ( 
@@ -10,7 +11,7 @@ const Work = () => {
 
              </div>
                <div className="work__secondtop">
-             <img src="./images/vscode.jpg" style={{height:'400px', width:'400px', padding:'5rem 5rem' }} xalt="screen image of visual studio" ></img>
+             <img src={visualStudio} style={{height:'400px', width:'400px', padding:'5rem 5rem' }} xalt="screen image of visual studio" ></img>
              <div className="work__secondtop--text">
                   <h2>Visual Studio Code</h2>
                     <p>I have used Visual Studio for being React/Node.js applications. Within visual studio I have
