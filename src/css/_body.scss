@@ -1,0 +1,119 @@
+@mixin blockStyle(){
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+
+
+.body {
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+ //   flex-flow:wrap;
+    background-color:whitesmoke;
+
+    &__blockOne {
+        @include blockStyle();
+
+        &--element {
+            display:flex;
+            flex-direction:column;
+            text-align:center;
+            justify-content:center;
+            padding:1rem;
+            flex-basis:5%;
+            flex-wrap:wrap;
+            margin-top:5rem;
+            font-size:1.5rem;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color:rgba(255, 255, 255, 0.931);
+        }
+        }
+        &__blockTwo {
+       @include blockStyle();
+        
+            &--element {
+                display:flex;
+                flex-direction:column;
+                text-align:center;
+                justify-content:center;
+                padding:1rem;
+                flex-basis:5%;
+             //   width:50vw;
+                flex-wrap:wrap;
+                margin-top:5rem;
+                font-size:1.5rem;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                background-color:rgba(255, 255, 255, 0.931);
+            }
+            }
+            &__blockThree {
+          @include blockStyle();
+                flex-direction:column-reverse;
+                align-items:center;
+            
+                &--elementOne {
+                    display:flex;
+                    flex-direction:column;
+                    text-align:center;
+                    justify-content:center;
+                    padding:1rem;
+                    width:70%;
+                    flex-basis:5%;
+                    flex-wrap:wrap;
+                    margin-top:5rem;
+                    font-size:1.5rem;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    background-color:rgba(255, 255, 255, 0.931);
+                }
+
+                &--elementTwo {
+                    display:flex;
+                    flex-direction:column;
+                    text-align:center;
+                    justify-content:center;
+                    padding:3rem;
+                    width:40%;
+                    flex-basis:5%;
+                    flex-wrap:wrap;
+                    margin-top:5rem;
+                    font-size:1.5rem;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    background-color:rgba(255, 255, 255, 0.931);
+                }
+                }
+                &__blockFour {
+                @include blockStyle();
+                flex-direction: row-reverse;
+                width:100%;
+
+                    &--elementOne {
+                        display:flex;
+                   //     flex-direction:column;
+                        text-align:center;
+                        justify-content:center;
+                        padding:1rem;
+                        width:100%;
+                        flex-wrap:wrap;
+                        padding-right:10rem;
+                        padding-top:5rem;
+                        margin-top:5rem;
+                        font-size:1.5rem;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                        background-color:rgba(255, 255, 255, 0.931);
+                    }
+                    &--elementTwo {
+                        display:flex;
+                        flex-direction:column;
+                        justify-content:center;
+                        padding:10rem;
+                        
+                        margin-top:5rem;
+                        font-size:1.5rem;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                        background-color:rgba(255, 255, 255, 0.931);
+                    }
+                    }
+  
+
+}

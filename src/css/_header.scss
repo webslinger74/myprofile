@@ -1,0 +1,121 @@
+$primaryBackground: honeydew;
+$primaryBackgroundHover:#979492;
+
+@mixin flexCentre($color) {
+    background-color:$color;
+    display:flex;
+    align-items:center;
+}
+
+
+.header {
+    background-color: red;
+    height:14vh;
+
+    &__top {
+        flex-direction:row;
+        color:black;
+        flex-grow:1;
+        justify-content: space-around;
+        font-family: 'Bebas Neue', cursive;
+        @include flexCentre(whitesmoke);
+
+        &--menuItem {
+        transition-duration:300ms;
+        text-decoration-line:none;
+        color:black;
+        justify-content:center;
+        width:15vw;
+        height:100%;
+        font-size:3rem;
+        letter-spacing:.5rem;
+        font-weight: bold;
+        @include flexCentre(white);
+        
+        
+
+        &:hover {
+            background-color: $primaryBackgroundHover;
+            color:white;
+            
+            
+
+        }
+                }
+    }
+
+    &__bottom {
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        background-color:white;
+        height:7.5vh;
+        font-size:3rem;
+        font-family: 'Shadows Into Light', cursive;
+    }
+}
+
+.header-mobile {
+    background-color:whitesmoke;
+    height:100vh;
+    display:flex;
+    flex-direction:row-reverse;
+
+    &__top {
+        background-color:honeydew;
+        display:flex;
+        flex-direction:column;
+        color:black;
+        height:100%;
+        align-items:flex-end;
+        font-family: 'Bebas Neue', cursive;
+
+
+        &--menuItem {
+        display:flex;
+        flex-direction:column;
+        justify-content:flex-start;
+        align-items:center;
+        width:15vw;
+        padding-right:1rem;
+        background-color:whitesmoke;
+        font-size:3rem;
+        letter-spacing:.5rem;
+        font-weight: bold;
+            }
+    }
+
+    &__bottom {
+        display:flex;
+        flex-direction:column;
+        align-items:flex-end;
+        background-color:honeydew;
+        height:50%;
+        width:50vw;
+        font-size:2rem;
+        font-family: 'Shadows Into Light', cursive;
+
+        &--x {
+           margin-right:.5rem; 
+           font-size:5rem;
+        }
+
+        &--menuItem {
+            display:flex;
+            justify-content:space-evenly;
+            align-items:center;
+            flex-grow:1;
+            margin-right:5rem;
+            background-color: honeydew;
+            font-size:3rem;
+            letter-spacing:.5rem;
+            font-weight: bold;
+
+
+
+            &:hover {
+                background-color:wheat;
+            }
+                }
+    }
+}

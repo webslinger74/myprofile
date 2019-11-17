@@ -1,0 +1,58 @@
+@mixin layout(){
+    display:flex;
+        flex-direction:row; 
+        text-align: center;
+        width:100vw; 
+}
+
+
+.work {
+    
+    display:flex;
+    flex-grow:1;
+    flex-shrink:0.5;
+    flex-direction:column;
+    justify-content:center;
+
+    &__top {
+       @include layout();
+       justify-content:center;
+    }
+
+    &__secondtop {
+       @include layout();
+       align-items:center;
+       flex-wrap:wrap;
+
+       &--text {
+           
+           align-items:center;
+           width:40%;
+           font-size:1.6rem;
+           }
+       }
+    &__thirdtop {
+        @include layout();
+        align-items:center;
+        flex-wrap:wrap;
+ 
+        &--text {
+            
+            align-items:center;
+            width:40%;
+            font-size:1.6rem;
+            }
+    }
+    &__forthtop {
+        @include layout();
+        align-items:center;
+        flex-wrap:wrap;
+ 
+        &--text {
+            
+            align-items:center;
+            width:40%;
+            font-size:1.6rem;
+            }
+    }
+}

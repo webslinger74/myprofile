@@ -1,0 +1,27 @@
+.home {
+    display:flex;
+    flex-direction:row;
+    flex-grow:1;
+  //  background-image:url('../images/background.jpg');
+    &__left {
+        display:flex;
+        flex-direction:row;
+        width:40vw;
+        font-size:50px;
+    }
+
+    &__right {
+        display:flex;
+        flex-direction:column;
+        margin-top:10rem;
+        font-size:1.8rem;
+        width:50vw;
+        font-family:Helvetica, sans-serif;
+
+        &--inner {
+            padding:3rem;
+            height:30vh;
+        }
+    }
+
+}

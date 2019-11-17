@@ -1,0 +1,9 @@
+.Button {
+
+    transition-duration:300ms !important;
+
+    &:hover {
+        background-color: rgba(33, 33, 243, 0.692) !important;
+        color:black !important;
+    }
+}

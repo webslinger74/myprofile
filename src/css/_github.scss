@@ -1,0 +1,13 @@
+.github {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:true;
+
+    &__left {
+    display:flex; 
+    }
+    &__right {
+        display:flex;
+        flex-direction:column-reverse;
+    }
+}
