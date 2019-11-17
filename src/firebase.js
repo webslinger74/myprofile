@@ -13,10 +13,9 @@ var firebaseConfig = {
     appId:process.env.REACT_APP_appId,
     measurementId:process.env.REACT_APP_measurementId
   };
-  //further firebase config required
-  // Initialize Firebase
+
   firebase.initializeApp(firebaseConfig);
-  //firebase.analytics();
+
 
 
   const firebaseDB = firebase.database();
