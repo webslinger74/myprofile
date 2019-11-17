@@ -64,8 +64,8 @@ class Enrol extends Component {
                 formError:false,
                 formdata:newFormdata
             },() => {
-                console.log(this.state.formdata.email.value);
-                console.log(this.state.formdata.freetext.value);
+           //     console.log(this.state.formdata.email.value);
+             //   console.log(this.state.formdata.freetext.value);
             })
 
     }
@@ -168,12 +168,11 @@ class Enrol extends Component {
                                         change={(event) => this.submitForm(event)}
                                         height='3.2rem'
                                         width='100%'
-                                        font-size='2rem'
                                         borderRadius='.5rem'
                                         border='solid 2px blue'
                                         color='white'
                                         marginLeft='.5rem'
-                                        background-color='blue'
+                                        backgroundColor='blue'
 
                                         >
                                 </Button>

@@ -16,8 +16,6 @@ class Github extends Component {
 
    getGitHubApiDetails = () => {
       const GitHubClient = require('../githubclient.js').GitHubClient;
-        console.log(GitHubClient, "githubcli");
-       console.log(process.env.REACT_APP_MY_GIT_TOKEN, "MYTOKEN");
         
         
         
@@ -31,8 +29,7 @@ class Github extends Component {
           .then(response => {
             const DataArray = [];
          
-            for(let key in response.data){
-              console.log(key, "the key");    
+            for(let key in response.data){   
               let value = response.data[key]
               DataArray.push({[key]:value})
             }
@@ -45,15 +42,10 @@ class Github extends Component {
 
 
                  const NewArray = DataArray.filter((item,i) => {
-                  console.log(Object.keys(item), "the keyconsole")
-                  console.log(FilterArray[0], "filter array o");
-                  
                   return FilterArray.includes(Object.keys(item)[0]);
 
                   })
             
-            
-            console.log(NewArray, "the dataArray");
             this.setState({
               dataArray:NewArray
             })
